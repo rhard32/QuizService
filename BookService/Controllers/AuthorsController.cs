@@ -9,9 +9,9 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
-using BookService.Models;
+using QuizService.Models;
 
-namespace BookService.Controllers
+namespace QuizService.Controllers
 {
     public class AuthorsController : ApiController
     {

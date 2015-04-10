@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Newtonsoft.Json;
 
-namespace BookService.Models
+namespace QuizService.Models
 {
     // Models used as parameters to AccountController actions.
 

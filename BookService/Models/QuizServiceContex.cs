@@ -5,7 +5,7 @@ using System.Linq;
 using System.Web;
 
 
-namespace BookService.Models
+namespace QuizService.Models
 {
     public class BookDTO
     {
@@ -15,7 +15,7 @@ namespace BookService.Models
     }
 }
 
-namespace BookService.Models
+namespace QuizService.Models
 {
     public class BookDetailDTO
     {
@@ -28,7 +28,7 @@ namespace BookService.Models
     }
 }
 
-namespace BookService.Models
+namespace QuizService.Models
 {
     public class BookServiceContext : DbContext
     {
@@ -49,9 +49,9 @@ namespace BookService.Models
 
         }
 
-        public System.Data.Entity.DbSet<BookService.Models.Author> Authors { get; set; }
+        public System.Data.Entity.DbSet<QuizService.Models.Author> Authors { get; set; }
 
-        public System.Data.Entity.DbSet<BookService.Models.Book> Books { get; set; }
+        public System.Data.Entity.DbSet<QuizService.Models.Answer> Books { get; set; }
     
     }
 }

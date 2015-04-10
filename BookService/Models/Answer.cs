@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BookService.Models
+namespace QuizService.Models
 {
-    public class Book
+    public class Answe
     {
         public int Id { get; set; }
         [Required]

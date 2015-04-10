@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace BookService.Areas.HelpPage.ModelDescriptions
+namespace QuizService.Areas.HelpPage.ModelDescriptions
 {
     public class ParameterDescription
     {

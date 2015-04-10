@@ -9,9 +9,9 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
-using BookService.Models;
+using QuizService.Models;
 
-namespace BookService.Providers
+namespace QuizService.Providers
 {
     public class ApplicationOAuthProvider : OAuthAuthorizationServerProvider
     {

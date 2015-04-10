@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using BookService.Areas.HelpPage.ModelDescriptions;
-using BookService.Areas.HelpPage.Models;
+using QuizService.Areas.HelpPage.ModelDescriptions;
+using QuizService.Areas.HelpPage.Models;
 
-namespace BookService.Areas.HelpPage.Controllers
+namespace QuizService.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

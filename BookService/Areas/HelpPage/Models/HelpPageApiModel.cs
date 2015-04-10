@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Net.Http.Headers;
 using System.Web.Http.Description;
-using BookService.Areas.HelpPage.ModelDescriptions;
+using QuizService.Areas.HelpPage.ModelDescriptions;
 
-namespace BookService.Areas.HelpPage.Models
+namespace QuizService.Areas.HelpPage.Models
 {
     /// <summary>
     /// The model that represents an API displayed on the help page.

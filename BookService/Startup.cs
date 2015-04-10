@@ -4,9 +4,9 @@ using System.Linq;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(BookService.Startup))]
+[assembly: OwinStartup(typeof(QuizService.Startup))]
 
-namespace BookService
+namespace QuizService
 {
     public partial class Startup
     {

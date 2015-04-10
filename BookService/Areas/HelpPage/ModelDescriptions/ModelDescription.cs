@@ -1,6 +1,6 @@
 using System;
 
-namespace BookService.Areas.HelpPage.ModelDescriptions
+namespace QuizService.Areas.HelpPage.ModelDescriptions
 {
     /// <summary>
     /// Describes a type model.

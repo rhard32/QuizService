@@ -1,4 +1,4 @@
-namespace BookService.Areas.HelpPage.ModelDescriptions
+namespace QuizService.Areas.HelpPage.ModelDescriptions
 {
     public class SimpleTypeModelDescription : ModelDescription
     {

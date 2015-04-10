@@ -5,9 +5,9 @@ using System.Reflection;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
 using System.Xml.XPath;
-using BookService.Areas.HelpPage.ModelDescriptions;
+using QuizService.Areas.HelpPage.ModelDescriptions;
 
-namespace BookService.Areas.HelpPage
+namespace QuizService.Areas.HelpPage
 {
     /// <summary>
     /// A custom <see cref="IDocumentationProvider"/> that reads the API documentation from an XML documentation file.

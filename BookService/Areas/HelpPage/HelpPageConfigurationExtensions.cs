@@ -11,10 +11,10 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
-using BookService.Areas.HelpPage.ModelDescriptions;
-using BookService.Areas.HelpPage.Models;
+using QuizService.Areas.HelpPage.ModelDescriptions;
+using QuizService.Areas.HelpPage.Models;
 
-namespace BookService.Areas.HelpPage
+namespace QuizService.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

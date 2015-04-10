@@ -13,11 +13,11 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
-using BookService.Models;
-using BookService.Providers;
-using BookService.Results;
+using QuizService.Models;
+using QuizService.Providers;
+using QuizService.Results;
 
-namespace BookService.Controllers
+namespace QuizService.Controllers
 {
     [Authorize]
     [RoutePrefix("api/Account")]

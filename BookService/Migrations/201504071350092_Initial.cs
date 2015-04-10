@@ -1,4 +1,4 @@
-namespace BookService.Migrations
+namespace QuizService.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

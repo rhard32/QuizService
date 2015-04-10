@@ -1,19 +1,19 @@
-namespace BookService.Migrations
+namespace QuizService.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
-    using BookService.Models;
+    using QuizService.Models;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<BookService.Models.BookServiceContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<QuizService.Models.BookServiceContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(BookService.Models.BookServiceContext context)
+        protected override void Seed(QuizService.Models.BookServiceContext context)
         {
             //  This method will be called after migrating to the latest version.
 
@@ -35,7 +35,7 @@ namespace BookService.Migrations
         );
 
             context.Books.AddOrUpdate(x => x.Id,
-                new Book()
+                new Answer()
                 {
                     Id = 1,
                     Title = "Pride and Prejudice",
@@ -44,7 +44,7 @@ namespace BookService.Migrations
                     Price = 9.99M,
                     Genre = "Comedy of manners"
                 },
-                new Book()
+                new Answer()
                 {
                     Id = 2,
                     Title = "Northanger Abbey",
@@ -53,7 +53,7 @@ namespace BookService.Migrations
                     Price = 12.95M,
                     Genre = "Gothic parody"
                 },
-                new Book()
+                new Answer()
                 {
                     Id = 3,
                     Title = "David Copperfield",
@@ -62,7 +62,7 @@ namespace BookService.Migrations
                     Price = 15,
                     Genre = "Bildungsroman"
                 },
-                new Book()
+                new Answer()
                 {
                     Id = 4,
                     Title = "Don Quixote",

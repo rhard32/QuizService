@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
 
-namespace BookService.Models
+namespace QuizService.Models
 {
     public class BooksController : ApiController
     {
@@ -54,7 +54,7 @@ namespace BookService.Models
 
         // PUT: api/Books/5
         [ResponseType(typeof(void))]
-        public async Task<IHttpActionResult> PutBook(int id, Book book)
+        public async Task<IHttpActionResult> PutBook(int id, Answer book)
         {
             if (!ModelState.IsValid)
             {
@@ -88,8 +88,8 @@ namespace BookService.Models
         }
 
         // POST: api/Books
-        [ResponseType(typeof(Book))]
-        public async Task<IHttpActionResult> PostBook(Book book)
+        [ResponseType(typeof(Answer))]
+        public async Task<IHttpActionResult> PostBook(Answer book)
         {
             if (!ModelState.IsValid)
             {
@@ -114,10 +114,10 @@ namespace BookService.Models
         }
 
         // DELETE: api/Books/5
-        [ResponseType(typeof(Book))]
+        [ResponseType(typeof(Answer))]
         public async Task<IHttpActionResult> DeleteBook(int id)
         {
-            Book book = await db.Books.FindAsync(id);
+            Answer book = await db.Books.FindAsync(id);
             if (book == null)
             {
                 return NotFound();

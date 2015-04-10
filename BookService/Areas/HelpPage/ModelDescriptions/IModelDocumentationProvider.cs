@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace BookService.Areas.HelpPage.ModelDescriptions
+namespace QuizService.Areas.HelpPage.ModelDescriptions
 {
     public interface IModelDocumentationProvider
     {

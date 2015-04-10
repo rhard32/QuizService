@@ -8,10 +8,10 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
-using BookService.Providers;
-using BookService.Models;
+using QuizService.Providers;
+using QuizService.Models;
 
-namespace BookService
+namespace QuizService
 {
     public partial class Startup
     {

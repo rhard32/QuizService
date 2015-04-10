@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace BookService.Models
+namespace QuizService.Models
 {
     // Models returned by AccountController actions.
 

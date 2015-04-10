@@ -1,7 +1,7 @@
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace BookService.Areas.HelpPage
+namespace QuizService.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {

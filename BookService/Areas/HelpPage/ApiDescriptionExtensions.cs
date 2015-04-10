@@ -3,7 +3,7 @@ using System.Text;
 using System.Web;
 using System.Web.Http.Description;
 
-namespace BookService.Areas.HelpPage
+namespace QuizService.Areas.HelpPage
 {
     public static class ApiDescriptionExtensions
     {
