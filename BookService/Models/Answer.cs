@@ -14,6 +14,6 @@ namespace QuizService.Models
         // Foreign Key
         public int AuthorId { get; set; }
         // Navigation property
-        public Author Author { get; set; }
+        public AnswerOptions Author { get; set; }
     }
 }

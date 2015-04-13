@@ -29,9 +29,9 @@ namespace QuizService.Migrations
             //
 
             context.Authors.AddOrUpdate(x => x.Id,
-        new Author() { Id = 1, Name = "Jane Austen" },
-        new Author() { Id = 2, Name = "Charles Dickens" },
-        new Author() { Id = 3, Name = "Miguel de Cervantes" }
+        new AnswerOptions() { Id = 1, Name = "Jane Austen" },
+        new AnswerOptions() { Id = 2, Name = "Charles Dickens" },
+        new AnswerOptions() { Id = 3, Name = "Miguel de Cervantes" }
         );
 
             context.Books.AddOrUpdate(x => x.Id,

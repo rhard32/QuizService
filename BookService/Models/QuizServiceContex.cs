@@ -49,7 +49,7 @@ namespace QuizService.Models
 
         }
 
-        public System.Data.Entity.DbSet<QuizService.Models.Author> Authors { get; set; }
+        public System.Data.Entity.DbSet<QuizService.Models.AnswerOptions> Authors { get; set; }
 
         public System.Data.Entity.DbSet<QuizService.Models.Answer> Books { get; set; }
     

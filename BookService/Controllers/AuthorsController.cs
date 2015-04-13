@@ -18,16 +18,16 @@ namespace QuizService.Controllers
         private BookServiceContext db = new BookServiceContext();
 
         // GET: api/Authors
-        public IQueryable<Author> GetAuthors()
+        public IQueryable<AnswerOptions> GetAuthors()
         {
             return db.Authors;
         }
 
         // GET: api/Authors/5
-        [ResponseType(typeof(Author))]
+        [ResponseType(typeof(AnswerOptions))]
         public async Task<IHttpActionResult> GetAuthor(int id)
         {
-            Author author = await db.Authors.FindAsync(id);
+            AnswerOptions author = await db.Authors.FindAsync(id);
             if (author == null)
             {
                 return NotFound();
@@ -38,7 +38,7 @@ namespace QuizService.Controllers
 
         // PUT: api/Authors/5
         [ResponseType(typeof(void))]
-        public async Task<IHttpActionResult> PutAuthor(int id, Author author)
+        public async Task<IHttpActionResult> PutAuthor(int id, AnswerOptions author)
         {
             if (!ModelState.IsValid)
             {
@@ -72,8 +72,8 @@ namespace QuizService.Controllers
         }
 
         // POST: api/Authors
-        [ResponseType(typeof(Author))]
-        public async Task<IHttpActionResult> PostAuthor(Author author)
+        [ResponseType(typeof(AnswerOptions))]
+        public async Task<IHttpActionResult> PostAuthor(AnswerOptions author)
         {
             if (!ModelState.IsValid)
             {
@@ -87,10 +87,10 @@ namespace QuizService.Controllers
         }
 
         // DELETE: api/Authors/5
-        [ResponseType(typeof(Author))]
+        [ResponseType(typeof(AnswerOptions))]
         public async Task<IHttpActionResult> DeleteAuthor(int id)
         {
-            Author author = await db.Authors.FindAsync(id);
+            AnswerOptions author = await db.Authors.FindAsync(id);
             if (author == null)
             {
                 return NotFound();

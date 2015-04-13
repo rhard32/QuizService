@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace QuizService.Models
 {
-    public class Author
+    public class AnswerOptions
     {
         public int Id { get; set; }
         [Required]
